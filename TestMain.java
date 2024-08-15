@@ -17,7 +17,7 @@ public class TestMain {
         System.out.println(distanciaEntrePuntoVerde);
 
         Punto puntoMedioEntrePuntoVerde = puntoRojo.damePuntoMedioEntreOtroPunto(puntoVerde);
-        System.out.println(puntoMedioEntrePuntoVerde.toString());
+        System.out.println(damePuntoMedioEntreOtroPunto);
 
     }
 }

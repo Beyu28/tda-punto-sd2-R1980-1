@@ -153,7 +153,7 @@ public class Punto implements IPunto {
     public Punto damePuntoMedioEntreOtroPunto(Punto otroPunto) {
         double xmedio=0;
         double ymedio=0;
-        double zmedio = 0; // Inicializar zmedio
+        double zmedio = 0; 
 
         double puntox1 = this.x;
         double puntoy1 = this.y;
@@ -176,7 +176,7 @@ public class Punto implements IPunto {
             return new Punto(Sistema.ESPACIO, xmedio, ymedio, zmedio);
         } else {
             System.out.println("Debe proporcionar un sistema compatible para calcular el punto medio.");
-            return null; // O manejarlo de otra forma según tu diseño
+            return null; 
         }
 }
 }
